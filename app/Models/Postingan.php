@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Postingan extends Model
 {
-    protected $table = "postingan";
+    protected $table = "data_postingan";
 
-    protected $fillable = ['Id', 'username', 'kategori', 'gambar', 'judul', 'deskripsi', 'nama_pekerjaan', 'kualifikasi', 'kelengkapan_berkas', 'cara_daftar'];
+    protected $fillable = ['Id_postingan', 'username', 'kategori', 'gambar', 'judul', 'deskripsi', 'nama_pekerjaan', 'kualifikasi', 'kelengkapan_berkas', 'cara_daftar', 'jumlah_comment', 'jumlah_like'];
 }
